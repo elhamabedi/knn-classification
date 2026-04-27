@@ -29,18 +29,21 @@ Comprehensive EDA was conducted to understand feature distributions, relationshi
 ### 3.3 Classification Using K-Nearest Neighbors (KNN)
 A custom KNN classifier was implemented to handle the mixed data types (numerical and categorical) effectively.
 + Distance Metric
-###### Euclidean Distance: Used for numerical features (age, chol, etc.)
-###### Hamming Distance: Used for categorical features (sex, cp, etc.).
+  + Euclidean Distance: Used for numerical features (age, chol, etc.)
+  + Hamming Distance: Used for categorical features (sex, cp, etc.).
 + Hyperparameter Tuning
 + Evaluation Metrics
 
 ### 4. Results and Performance
 Calculating Accuracy, Precision, Recall, and F1-Score.
-+ Performance Metrics (for K=3):
-###### Accuracy: 93%
-###### Precision: 96%
-###### Recall: 90%
-###### F1-Score: 93%
++ Performance Metrics:
+  
+| Metric     | Value (K=3) |
+|------------|-------------|
+| Accuracy   | 93%         |
+| Precision  | 96%         |
+| Recall     | 90%         |
+| F1-Score   | 93%         |
 
 + Confusion Matrix Analysis
 
@@ -51,7 +54,7 @@ KNN/
 ├── code.ipynb                # Main Jupyter Notebook containing the implementation
 ├── Dataset/
 │   └── dataset.csv           # The UCI Heart Disease Dataset
-├── README.md                 # Project documentation
+└── README.md                 # Project documentation
 ```
 
 ## References
